@@ -1,0 +1,8 @@
+# Pastas
+venv/
+
+
+# Arquivos
+.csv
+.pem
+.env
