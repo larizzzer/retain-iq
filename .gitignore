@@ -3,6 +3,6 @@ venv/
 
 
 # Arquivos
-.csv
-.pem
-.env
+*.csv
+*.pem
+*.env
