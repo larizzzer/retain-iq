@@ -1,11 +1,5 @@
 # RetainIQ
 
-> Pipeline de dados end-to-end para análise de churn bancário, construído com boas práticas de cloud AWS.
-
----
-
-## 📌 Sobre o Projeto
-
 O **RetainIQ** é um projeto de engenharia e análise de dados que simula um pipeline real de uma instituição financeira. A partir de dados de clientes bancários, o projeto realiza a ingestão, tratamento e visualização das principais métricas relacionadas ao **churn** — o cancelamento de contas por parte dos clientes.
 
 O objetivo é demonstrar a construção de uma arquitetura de dados estruturada na nuvem AWS, com foco em boas práticas de segurança, custo e operação.
@@ -116,15 +110,6 @@ O projeto foi desenhado para operar dentro do **AWS Free Tier**:
 | Eficiência de Performance | Instância dimensionada ao workload, serviços gerenciados |
 | Otimização de Custos | Projeto inteiramente dentro do free tier, sem over-provisioning |
 | Sustentabilidade | Instâncias mínimas, serviços gerenciados com infraestrutura compartilhada otimizada pela AWS |
-
----
-
-## 🔭 Próximos Passos
-
-- [ ] Migrar o script ELT para **AWS Glue**
-- [ ] Substituir o RDS por **Amazon Redshift**
-- [ ] Orquestrar o pipeline com **Apache Airflow**
-- [ ] Adicionar monitoramento com **Amazon CloudWatch**
 
 ---
 
