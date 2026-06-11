@@ -55,7 +55,7 @@ RetainIQ/
 │
 ├── python/
 │   ├── analise_exploratoria.py   # exploração inicial do dataset
-│   └── elt.py                    # pipeline de extração e carga
+│   └── etl.py                    # pipeline de extração e carga
 │
 ├── sql/
 │   ├── criacao_tabela.sql        # DDL da tabela customers
